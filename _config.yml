@@ -1,0 +1,8 @@
+name: "Joel's Thoughts on Things"
+description: "A blog about the things I know"
+
+url: http://joelg236.github.io
+
+paginator: 10
+
+markdown: rdiscount
