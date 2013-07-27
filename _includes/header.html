@@ -23,7 +23,7 @@
 
     <body>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-target=".navbar-responsive-collapse">
@@ -31,7 +31,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href={{ site.url }}>{{ site.name }}</a>
+                    <a class="brand" href="/">{{ site.name }}</a>
+                    <div class="nav-collapse collapse navbar-responsive-collapse">
+                        <ul class="nav pull-right">
+                            <li><a href="https://github.com/joelg236"><img src="/img/github.png" alt="Github" width="22" height="63"></a></li>
+                            <li><a href="https://news.ycombinator.com/user?id=joelg236"><img src="/img/hackernews.png" alt="Hacker News" width="22" height="63"></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
