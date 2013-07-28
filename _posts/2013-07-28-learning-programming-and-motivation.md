@@ -27,6 +27,7 @@ I'm getting these books for reference material, but I will be reading every one 
 
 ## Languages
 I'll also be learning the basics of some programming languages. These are my priorities:
+
 - go
 - scala
 - c
