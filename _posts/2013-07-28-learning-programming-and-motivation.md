@@ -13,9 +13,9 @@ I'm going to study CS. I've not done any official CS courses, or anything like t
 I've ordered a few books from Amazon
 
 - [Code: The Hidden Language of Computer Hardware and Software](http://www.amazon.ca/gp/product/0735611319/ref=oh_details_o00_s00_i07)
--[The New Turing Omnibus: Sixty-Six Excursions in Computer Science](http://www.amazon.ca/gp/product/0805071660/ref=oh_details_o00_s00_i00)
--[Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.ca/gp/product/0201633612/ref=oh_details_o00_s00_i06)
--[Refactoring: Improving the Design of Existing Code](http://www.amazon.ca/gp/product/0201485672/ref=oh_details_o00_s00_i01)
+- [The New Turing Omnibus: Sixty-Six Excursions in Computer Science](http://www.amazon.ca/gp/product/0805071660/ref=oh_details_o00_s00_i00)
+- [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.ca/gp/product/0201633612/ref=oh_details_o00_s00_i06)
+- [Refactoring: Improving the Design of Existing Code](http://www.amazon.ca/gp/product/0201485672/ref=oh_details_o00_s00_i01)
 
 The first book will be my intro to how software and hardware interact. I've really been slacking on understanding this stuff. It'll be really nice to understand the inner-workings of computers so that I can properly use them.
 
