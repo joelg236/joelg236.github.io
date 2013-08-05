@@ -1,6 +1,7 @@
 name: "Joel's Thoughts on Things"
 description: "A blog about the things I know"
 
+permalink: pretty
 url: http://joelg236.github.io
 
 paginator: 10
