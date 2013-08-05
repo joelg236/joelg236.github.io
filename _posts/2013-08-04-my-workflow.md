@@ -5,12 +5,13 @@ layout: post
 
 ![](/img/full-desktop.png)
 
-I've had a few years to get where I am now in terms of workflow on my laptop (Dell Inspiron 174 n7110 with 128gb SSD installed). Here's what I've got.
+I've had a few years to get where I am now in terms of workflow on my laptop (Dell Inspiron 17r n7110 with 128gb SSD installed). Here's what I've got.
 
 # Operating System
 I use a single-boot [crunchbang](http://crunchbang.org/) install.
 
 Special things about my install:
+
 - Kernel 3.9.1 from Debian testing mostly for battery performance tweaks (there's a bug from 2.x days that makes battery on it 30% worse)
 - Pulseaudio and libc6 updated from Debian testing for headphone jack support an FRC plugin support (32 bit)
 
