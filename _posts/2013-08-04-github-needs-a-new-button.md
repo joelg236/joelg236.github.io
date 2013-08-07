@@ -20,4 +20,12 @@ That way, the barrier to entry is lowered. There's no longer a big wall in front
 
 And maybe, this doesn't come as a "I want to contribute" type thing. It's likely this would be more realistic as some kind of a page that lists things that need to be completed. A lot of projects have "TODO" files or something like that - why not make it a standard? Just like issues.
 
+### Suggestions so far
+
+- Github actually has a decent system in place, but they don't advertise it at all [here](https://github.com/blog/1184-contributing-guidelines)
+- Sites that solve this problem
+    - [http://openhatch.org/](http://openhatch.org/)
+    - [https://waffle.io/](https://waffle.io/)
+    - [http://www.codetriage.com/](http://www.codetriage.com/)
+
 [Discuss on hacker news](https://news.ycombinator.com/item?id=6157805)
