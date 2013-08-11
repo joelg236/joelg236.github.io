@@ -3,7 +3,7 @@ title: Fantasy Competitive COD
 layout: post
 ---
 
-You might recognise me as the guy who made the spreadsheet and kept track of stats on gfinity. I had over 800 people check that sheet out, so there's definitely a demand for this. Thankfully we have a few months before the next big event so I'd like to push this idea out.
+You might recognise me as the guy who made the spreadsheet and kept track of stats on gfinity ([here](https://docs.google.com/spreadsheet/pub?key=0AsoF1GHzyAwHdHN2NGxPVFhseG1aVE1wLU81SFYyQkE&single=true&gid=0&output=html)). I had over 800 people check that sheet out, so there's definitely a demand for this. Thankfully we have a few months before the next big event so I'd like to push this idea out.
 
 I'm writing this post to gauge interest in an idea I have. I'd like to make a fantasy competitive COD league for events.
 
