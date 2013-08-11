@@ -13,7 +13,7 @@ Ideas for voting:
 - Team placing predictions. You can update it after every round but get less points as tournament progresses
 - Match results predictions. You predict match results, get points for how close you are
 
-<iframe src="http://strawpoll.me/embed_1/324250" style="width: 600px; height: 310px; border: 0;">Loading poll...</iframe>
+<iframe src="http://strawpoll.me/embed_1/324250" style="width: 600px; height: 320px; border: 0;">Loading poll...</iframe>
 
 Things I'll need to do:
 
