@@ -11,11 +11,7 @@
         <meta name="description" content="{{ site.description }}">
 
         <link href="/css/bootstrap.min.css" rel="stylesheet">
-        <style>
-            body {
-                padding-top: 65px;
-            }
-        </style>
+        <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -26,20 +22,19 @@
 
     <body>
 
-        <div class="navbar navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a class="brand" href="/">{{ site.name }}</a>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav pull-right">
-                            <li><a href="https://github.com/joelg236"><img src="/img/github.png" width="22" height="63"></a></li>
-                            <li><a href="http://stackoverflow.com/users/1165996"><img src="/img/stackoverflow.png" width="22" height="63"></a></li>
-                            <li><a href="https://news.ycombinator.com/user?id=joelg236"><img src="/img/hackernews.png" width="22" height="63"></a></li>
-                            <li><a href="http://hubski.com/user?id=joelg236"><img src="/img/hubski.png" width="22" height="63"></a></li>
-                        </ul>
-                    </div>
-                </div>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">{{ site.name }}</a>
             </div>
-        </div>
+
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://github.com/joelg236"><img src="/img/github.png" height="20"></a></li>
+                <li><a href="http://stackoverflow.com/users/1165996"><img src="/img/stackoverflow.png" height="20"></a></li>
+                <li><a href="https://news.ycombinator.com/user?id=joelg236"><img src="/img/hackernews.png" height="20"></a></li>
+                <li><a href="http://hubski.com/user?id=joelg236"><img src="/img/hubski.png" height="20"></a></li>
+            </ul>
+          </div>
+        </nav>
 
         <div class="container">
