@@ -13,9 +13,26 @@ categories:
 - Pasta
 
 recipes:
+-
+    name: Zucchini Salad
+    category: Salads
+    image: http://static.squarespace.com/static/510a909be4b05323be125d3b/t/52c716e1e4b0b6f0473f8390/1388779236191/Roasted%20Zucchini%20Rice%20Salad
+    source: http://studentrecipes.com/recipes/salads/zucchini-salad/
+    ingredients:
+        - 3 zucchinis (grated)
+        - 1 cup rice (boiled)
+        - 1/2 cup oil
+        - 1 cup mayonnaise
+        - 1 cup yogurt
+        - 1/2 cup dill (chopped)
+        - 1/2 tsp. salt
+    instructions:
+        - Oil in saucepan and add the grated zucchinis.
+        - Cook over medium heat for 10 - 12 minutes.
+        - Mix all ingredients in a bowl.
 -     
     name: Lentil Soup
-    category: Salads
+    category: Soups
     image: http://2.bp.blogspot.com/-TosnyOwER0E/TctOD7AEB0I/AAAAAAAABao/WaOaYZrdDoA/s1600/Jess+lentil+soup.jpeg
     source: http://www.reddit.com/r/VegRecipes/comments/1eq8v0/whats_everyones_favorite_lentil_recipe/ca319eh
     ingredients:
