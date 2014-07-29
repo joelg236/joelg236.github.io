@@ -142,7 +142,7 @@ recipes:
         - 1/4 cup shredded cheddar
         - 1/2 cup fresh spinach
     instructions:
-        - In a small non-stick skillet, fry your egg until it is set. I like to leave the yolk just slightly runny but beware: the runnier the yolk, the less portable the quesadilla (and there is nothing worse than dripping egg yolk down the front of your shirt before you even get to work. Trust me).
+        - "In a small non-stick skillet, fry your egg until it is set. I like to leave the yolk just slightly runny but beware: the runnier the yolk, the less portable the quesadilla (and there is nothing worse than dripping egg yolk down the front of your shirt before you even get to work. Trust me)."
         - While the egg cooks, smear 1 tsp of chili garlic paste on one half of the tortilla. Top that side with ¼ cup of cheese.
         - When the egg is finished, place the egg on top of the cheese (the heat helps it melt) and then put the spinach on top of the egg. Fold the tortilla over and return it to the pan (keep the heat on).
         - Cook each side of the quessadilla until it is golden brown and crispy (1-2 min each side). Be careful not to spill the contents of the quesadilla out as you flip it. The spinach likes to escape.
