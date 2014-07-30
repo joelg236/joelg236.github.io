@@ -14,6 +14,25 @@ categories:
 
 recipes:
 -
+    name: Spaghetti Bolognase
+    category: Pasta
+    image: http://fazzfood.com/wp-content/uploads/2014/03/Spaghetti-Bolognese-1.jpg
+    source: http://studentrecipes.com/recipes/pasta/spaghetti-bolognase-2/
+    ingredients:
+        - 1 red onion, finely chopped
+        - 1 garlic clove, finely copped
+        - 500g lean beef mince
+        - 2 cans chopped tomatoes
+        - 1 carrot, grated
+        - 2 tbsp. tomato puree
+        - Dash of worcester sauce
+        - 1 tbsp. italian seasoning
+        - 100g spaghetti
+    instructions:
+        - fry the onion in a little oil for 5 mins or until soft, then add the garlic and the mince.
+        - cook for 10 mins until the mine is browned off, then add the rest of the ingredients besides the spaghetti and allow to cook on a low heat for 30-60 mins
+        - cook the spaghetti as and when you need it according to the packet instructions
+-
     name: Zucchini Salad
     category: Salads
     image: http://static.squarespace.com/static/510a909be4b05323be125d3b/t/52c716e1e4b0b6f0473f8390/1388779236191/Roasted%20Zucchini%20Rice%20Salad
