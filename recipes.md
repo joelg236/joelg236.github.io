@@ -14,6 +14,22 @@ categories:
 
 recipes:
 -
+    name: Quick tomato pasta sauce
+    category: Pasta
+    image: http://www.taste.com.au/images/recipes/del/2003/05/5803_l.jpg
+    source: http://www.taste.com.au/recipes/5803/quick+tomato+pasta+sauce
+    ingredients:
+        - 40ml (2 tablespoons) olive oil
+        - 1 small onion, peeled, finely chopped
+        - 1 garlic clove, crushed
+        - 2 teaspoons tomato paste
+        - 410g can crushed tomatoes
+        - 1 teaspoon dried mixed herbs
+    instructions:
+        - Heat the oil in a saucepan. Add the onion and garlic and cook over low heat until the onion is softened.
+        - Add the tomato paste, crushed tomatoes, herbs and 125ml (1/2 cup) water.
+        - Simmer for 25 minutes until thick. Season with salt and pepper.
+-
     name: Spaghetti Bolognase
     category: Pasta
     image: http://fazzfood.com/wp-content/uploads/2014/03/Spaghetti-Bolognese-1.jpg
