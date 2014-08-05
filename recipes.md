@@ -14,6 +14,25 @@ categories:
 
 recipes:
 -
+    name: Rice & Lentil Salad
+    category: Rice
+    image: http://bed56888308e93972c04-0dfc23b7b97881dee012a129d9518bae.r34.cf1.rackcdn.com/sites/default/files/imagecache/standard/recipes/MV6960_0.JPG
+    source: http://www.eatingwell.com/recipes/rice_lentil_salad.html
+    ingredients:
+        - 2 tablespoons extra-virgin olive oil
+        - 2 tablespoons sherry vinegar or red-wine vinegar
+        - 1 tablespoon finely chopped shallot
+        - 1 tablespoon Dijon mustard
+        - 1/2 teaspoon paprika, preferably smoked
+        - 1/4 teaspoon salt
+        - 1/4 teaspoon freshly ground pepper
+        - 2 cups cooked brown rice
+        - 1 15-ounce can lentils, rinsed, or 11/3 cups cooked lentils
+        - 1 carrot, diced
+        - 2 tablespoons chopped fresh parsley
+    instructions:
+        - Whisk oil, vinegar, shallot, mustard, paprika, salt and pepper in a large bowl. Add rice, lentils, carrot and parsley; stir to combine.
+-
     name: Quick tomato pasta sauce
     category: Pasta
     image: http://www.taste.com.au/images/recipes/del/2003/05/5803_l.jpg
