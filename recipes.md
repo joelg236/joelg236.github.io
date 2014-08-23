@@ -14,6 +14,24 @@ categories:
 
 recipes:
 -
+    name: Homemade mac & cheese
+    category: Pasta
+    image: http://www.the-girl-who-ate-everything.com/wp-content/uploads/blogger/_A39cgxoHN64/TNoTONQ-9wI/AAAAAAAAGDY/lvSyytUo9Ao/s1600/macaroni-and-cheese-homemade.jpg
+    ingredients:
+        - One package of macaroni (Catelli is what I usually get but it doesn’t really matter)
+        - One can of Cheddar Cheese soup
+        - Milk
+        - Ritz Crackers
+        - OLD cheddar
+    instructions:
+        - Boil macaroni until cooked (follow cooking instructions on the package).  For you and I, I usually put in 4 cups of pre-cooked macaroni.
+        - While the macaroni is cooking, grate cheddar cheese.  I use a lot so I grate about 3 cups worth, if not a touch more.
+        - Once macaroni is firm but tender, drain, and put in casserole dish.
+        - Add one can cheddar cheese soup.  Then fill up empty can with milk and add that in.  Mix well.
+        - Add in cheddar cheese, handfuls at a time, and mix each time you add a handful.  If you try and add all the cheddar cheese at once, it’ll get all clumped up.  Keep mixing until thoroughly blended in.
+        - Crush Ritz Crackers in your hands and sprinkle on top.
+        - Put in oven and bake for about a half an hour.
+-
     name: Rice & Lentil Salad
     category: Rice
     image: http://bed56888308e93972c04-0dfc23b7b97881dee012a129d9518bae.r34.cf1.rackcdn.com/sites/default/files/imagecache/standard/recipes/MV6960_0.JPG
