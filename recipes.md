@@ -11,8 +11,32 @@ categories:
 - Rice
 - Lentils
 - Pasta
+- Pizza
 
 recipes:
+-
+    name: Fig Pizza
+    category: Pizza
+    image: http://guiltykitchen.com/images/Fig%20pizza%203.jpg
+    ingredients:
+        - 1/2 cup warm water
+        - 1 teaspoon yeast
+        - 1 cup flour
+        - 1 teaspoon olive oil
+        - Pinch of salt
+        - Pesto
+        - Figs
+        - Mushrooms
+        - Bell peppers
+        - Asiago cheese
+    instructions:
+        - Combine water and yeast and let sit for 5 minutes
+        - Add flour, oil and salt to water
+        - Knead until solid form
+        - Put in a bowl, cover with olive oil and a cloth on top. Rise for 45 minutes
+        - Roll out on a floured surface
+        - Brush with oil, add sauces and toppings
+        - Bake 375F for 12-20 minutes
 -
     name: Homemade mac & cheese
     category: Pasta
