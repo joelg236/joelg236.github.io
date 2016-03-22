@@ -2,15 +2,15 @@
 layout: default
 ---
 
+# Automated Scout 16
+FRC scouting application written to perform OPR matrix calculations from injested data to give accurate predictions of future matches.
+
+[Link](https://github.com/joelg236/automated-scout16) [Website](https://automated-scout.herokuapp.com/)
+
 # ATALibJ
-Java library written for FRC teams, essentially creating a good base to work from. Lots of coding standards and documentation here - probably my most thorough project to date.
+Java library written for FRC teams in 2014, essentially creating a good base to work from. Lots of coding standards and documentation here - probably my most thorough project to date.
 
 [Link](https://github.com/frc-west/atalibj) [Website](http://www.4334.ca/atalibj/)
-
-# Lethbridge Fringe Website
-My first Node.js website, very basic "brochure" website with a captcha contact form. Runs on openshift. Uses expressjs, jade, nodemailer, etc.
-
-[Link](https://github.com/lethbridgefringe/lethbridgefringe.ca) [Website](http://www.lethbridgefringe.ca/)
 
 # Gordian
 Scripting language that's entirely run inside of Java from text files. Not strict or well performing, but accomplished it's goal in FRC to run autonomous modes and settings files.
