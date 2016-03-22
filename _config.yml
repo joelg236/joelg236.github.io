@@ -1,9 +1,7 @@
 name: "Joel Gallant"
-description: "Joel Gallant is a software developer, front-end designer, tech enthusiast and robotics mentor."
+description: "Joel Gallant is a software developer, tech enthusiast and robotics mentor."
 
 permalink: pretty
 url: http://joelg236.github.io
 
 paginator: 10
-
-markdown: rdiscount
