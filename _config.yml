@@ -1,7 +1,5 @@
 name: "Joel Gallant"
-description: "Joel Gallant is a software developer, tech enthusiast and robotics mentor."
+description: "Joel is a software developer based in Calgary AB"
 
 permalink: pretty
-url: http://joelgallant.github.io
-
-paginator: 10
+url: http://joelgallant.me

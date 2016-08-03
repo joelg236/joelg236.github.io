@@ -1,5 +1,4 @@
 ---
-layout: default
 categories:
 - Soups
 - Salads
@@ -405,7 +404,12 @@ recipes:
 
     {% for r in page.recipes %}
         {% if r.category == c %}
-### {{ r.name }} {% if r.source %}<attr style="font-size:30%">[Source]({{ r.source }})</attr>{% endif %}
+### {{ r.name }}
+{% if r.source %}
+<attr style="font-size:30%">
+    <a href="{{ r.source }}">Source</a>
+</attr>
+{% endif %}
 <img width="50%" src="{{ r.image }}">
 
 #### Ingredients
