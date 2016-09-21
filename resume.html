@@ -7,22 +7,23 @@
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <style type="text/css">
         * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; }
+        body { font: 16px Sans-Serif; line-height: 22px; }
         .clear { clear: both; }
+        ul.no-bottom { margin-bottom: 0; }
         #page-wrap { width: 900px; margin: 40px auto 60px; }
         #pic { float: right; margin: -30px 0 0 0; }
         h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 40px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
         h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
         p { margin: 0 0 10px 0; }
-        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a { color: black; text-decoration: none; border-bottom: 1px dotted #999; }
         a:hover { border-bottom-style: solid; color: black; }
-        ul { margin: 0 0 32px 17px; }
-        #objective { width: 800px; float: left; }
+        ul { margin: 0 0 15px 17px; }
+        #objective { padding-top: 8px; width: 800px; float: left; }
         #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 70px; border-right: 1px solid #999;  }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 60px; border-right: 1px solid #999;  }
         dd { width: 700px; float: right; }
-        dd.clear { float: none; margin: 0; height: 8px; }
+        dd.clear { float: none; margin: 0; height: 15px; }
         dd img { padding: 10px; }
   </style>
   <style media="print" type="text/css">
@@ -37,64 +38,91 @@
     <div id="page-wrap">
         <div id="contact-info" class="vcard">
             <h1 class="fn">Joel Gallant</h1>
-            <p>
+            <div style="float: left;">
                 <b>Cell:</b> <span class="tel">403-826-5532</span>
                 <b>Email:</b> <a class="email" href="mailto:joel@joelgallant.me">joel@joelgallant.me</a>
-            </p>
+            </div>
+            <div style="float: right;">Calgary, AB, Canada</div>
         </div>
 
         <div id="objective">
             <p>
-                Driven, detail oriented, self taught and a candid software developer - with specialization in making the complex simple. From computer vision to user facing interfaces, and anything in between, I work hard and fast without sacrificing quality.
+                Driven, detail oriented, self taught and a candid software developer - with specialization in making the complex simple. I work hard and fast without sacrificing quality.
             </p>
         </div>
         <div class="clear"></div>
 
         <dl>
-            <dd class="clear"></dd>
             <dt>Skills</dt>
             <dd>
-                <h2>Software Development</h2>
-                <p>Web backend & frontend (node, express, html5/js), embedded (C, C++), build systems (cmake, makefiles), jvm languages (java, scala), image processing (opencv, dlib, numpy), data analysis (python, matplotlib), vector math (neon, sse)</p>
+                <div style="float:left; width: 33%;">
+                    <h4 style="text-decoration: underline;">Advanced</h4>
+                    <ul class="no-bottom">
+                        <li>Java 6/7</li>
+                        <li>C++11</li>
+                        <li>CMake & Make</li>
+                    </ul>
+                </div>
+                <div style="float:left; width: 33%;">
+                    <h4 style="text-decoration: underline;">Intermidiate</h4>
+                    <ul class="no-bottom">
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>OpenCV & dlib</li>
+                        <li>HTML5 & ES5/6</li>
+                    </ul>
+                </div>
+                <div style="float:right; width: 33%;">
+                    <h4 style="text-decoration: underline;">Familiar</h4>
+                    <ul class="no-bottom">
+                        <li>Ruby on Rails</li>
+                        <li>Scala</li>
+                        <li>CSS / Sass</li>
+                    </ul>
+                </div>
+            </dd>
+            <dd class="clear"></dd>
 
-                <h2>Software Tools</h2>
-                <p>Version control (git), issue tracking (github, bitbucket, jira), continuous integration & unit tests (semaphoreci, travis, gtest), IDEs (netbeans, eclipse), comfortable with shell & unix tools (bash, zsh, vim, tmux, ssh), fluent with excel</p>
+            <dt>Tools</dt>
+            <dd>
+                Version control (git), issue tracking (github, jira), continuous integration & unit tests (semaphoreci, travis, gtest), IDEs (netbeans, eclipse), shell & unix tools (bash, zsh, vim, tmux, ssh), fluent with excel
             </dd>
             <dd class="clear"></dd>
 
             <dt>Experience</dt>
             <dd>
-                <h2>Trace Intelligent Systems & Draganfly <span>Computer Vision Technologist - 2015-Present</span></h2>
-                <ul>
-                    <li>Developing embedded Computer Vision tracking software</li>
-                    <li>Research in novel techniques and advanced topics in state-of-the-art</li>
-                    <li>Optimization on ARM and x86 embedded platforms</li>
-                    <li>End-to-end development from user software to low level image operation optimizations</li>
-                </ul>
+                <h2><a href="http://www.draganfly.com/">Draganfly UAV & Trace</a> <span>Computer Vision Technologist - 2015-Present</span></h2>
+                <p>
+                    Responsible for developing, testing and integrating embedded Linux computer vision tracking software. Working with the state-of-the art short term general object trackers, high speed detection, machine learning classification and gesture control. Advancing techniques and integrating them into a low power system to control cameras and UAVs.
+                </p>
+                <p>
+                    Tracking software developed controls an autonomous UAV, target assists in public safety situations, and is adaptable to any type of target.
+                </p>
 
-                <h2>FIRST Robotics <span>FIRST Senior Mentor - 2014-2015</span></h2>
-                <ul>
-                    <li>Team communication and group workshops</li>
-                    <li>Event planning for Western Canada regional competition</li>
-                    <li>Team mentorship in engineering topics</li>
-                    <li>Curriculum development for engineering and programming</li>
-                    <li>Recruiting and supporting FRC, FTC and FLL teams in Alberta</li>
-                </ul>
+                <h2><a href="http://www.firstinspires.org/">FIRST Robotics</a> <span>FIRST Senior Mentor - 2014-2015</span></h2>
+                <p>
+                    Supporting, recruiting and mentoring students & coaches for FIRST Robotics teams in Alberta.
+                </p>
+                <p>
+                    My work had an impact on over 750 students across Alberta, giving them an opportunity to work hands-on with technology and engineering.
+                </p>
             </dd>
             <dd class="clear"></dd>
 
             <dt style="height: 40px;">Education</dt>
             <dd>
-                <h2>Bishop Carroll High School <span>High School Diploma, 2014</span> </h2>
+                <h2>Bishop Carroll Self-Directed High School <span>High School Diploma, 2014</span> </h2>
             </dd>
             <dd class="clear"></dd>
 
             <dt>Interests</dt>
             <dd>
-                <h4>FOSS, Free Software, Open Source, Linux</h4>
+                <h4>Free Software, Open Source, Linux</h4>
                 I have always been passionate about the moral and practical missions of free software
                 <h4>Electronics & Robotics</h4>
                 I have worked with a good amount of electronics and competed in 5 years of robotics competitions
+                <h4>Active Living</h4>
+                I'm passionate about staying healthy through hiking, basketball, weightlifting and cycling
             </dd>
             <dd class="clear"></dd>
 
