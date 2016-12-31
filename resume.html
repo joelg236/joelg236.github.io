@@ -25,12 +25,13 @@
         dd { width: 700px; float: right; }
         dd.clear { float: none; margin: 0; height: 15px; }
         dd img { padding: 10px; }
+        .only-print { display: none; }
   </style>
   <style media="print" type="text/css">
-        div.page {
-            page-break-after: auto;
-            page-break-inside: avoid;
-        }
+        .header { position: fixed; top: 0; }
+        .content { padding-top: 100px; }
+        .new-page { page-break-before: always; }
+        .only-print { display: block; padding-top: 40px; padding-bottom: 100px; }
   </style>
 </head>
 
@@ -42,17 +43,17 @@
                 <b>Cell:</b> <span class="tel">403-826-5534</span>
                 <b>Email:</b> <a class="email" href="mailto:joel@joelgallant.me">joel@joelgallant.me</a>
             </div>
-            <div style="float: right;">Calgary, AB, Canada</div>
+
+            <div id="objective">
+                <p>
+                    Driven, detail oriented, self taught and a candid software
+                    developer - with specialization in making the complex simple.
+                    I work hard and fast without sacrificing quality.
+                </p>
+            </div>
         </div>
 
-        <div id="objective">
-            <p>
-                Driven, detail oriented, self taught and a candid software developer - with specialization in making the complex simple. I work hard and fast without sacrificing quality.
-            </p>
-        </div>
-        <div class="clear"></div>
-
-        <dl>
+        <div class="content">
             <dt>Skills</dt>
             <dd>
                 <div style="float:left; width: 33%;">
@@ -69,7 +70,7 @@
                         <li>Node.js</li>
                         <li>Python</li>
                         <li>OpenCV & dlib</li>
-                        <li>HTML5 & ES5/6</li>
+                        <li>HTML5 & Javascript</li>
                     </ul>
                 </div>
                 <div style="float:right; width: 33%;">
@@ -77,6 +78,7 @@
                     <ul class="no-bottom">
                         <li>Ruby on Rails</li>
                         <li>Scala</li>
+                        <li>Rust</li>
                         <li>CSS / Sass</li>
                     </ul>
                 </div>
@@ -85,29 +87,98 @@
 
             <dt>Tools</dt>
             <dd>
-                Version control (git), issue tracking (github, jira), continuous integration & unit tests (semaphoreci, travis, gtest), IDEs (netbeans, eclipse), shell & unix tools (bash, zsh, vim, tmux, ssh), fluent with excel
+                <div style="float:left; width: 33%;">
+                    <ul class="no-bottom">
+                        <li>Version Control (git)</li>
+                        <li>Github, Bitbucket, etc.</li>
+                        <li>vim / tmux / zsh</li>
+                    </ul>
+                </div>
+                <div style="float:left; width: 33%;">
+                    <ul class="no-bottom">
+                        <li>Continuous Integration & Deployment</li>
+                        <li>Unit Testing (gtest)</li>
+                        <li>IDE Tools (netbeans, eclipse)</li>
+                    </ul>
+                </div>
+                <div style="float:right; width: 33%;">
+                    <ul class="no-bottom">
+                        <li>SSH and common unix tools</li>
+                        <li>Windows 7/8/10</li>
+                        <li>Solidworks</li>
+                    </ul>
+                </div>
             </dd>
             <dd class="clear"></dd>
 
             <dt>Experience</dt>
             <dd>
-                <h2><a href="http://www.draganfly.com/">Draganfly UAV & Trace</a> <span>Computer Vision Technologist - 2015-Present</span></h2>
+                <h2><a href="http://www.renoworks.com/">Renoworks</a> <span>Software Developer (Jan 2017 - Present)</span></h2>
                 <p>
-                    Responsible for developing, testing and integrating embedded Linux computer vision tracking software. Working with the state-of-the art short term general object trackers, high speed detection, machine learning classification and gesture control. Advancing techniques and integrating them into a low power system to control cameras and UAVs.
+                    Developing software for frontend and backend portions of
+                    Renoworks' core products. Improving rendering engine,
+                    researching auto-masking and developing novel computer
+                    vision techniques.
+                </p>
+
+                <h2><a href="http://www.draganfly.com/">Draganfly UAV & Trace</a> <span>Computer Vision Technologist (Apr 2015 - Dec 2016)</span></h2>
+                <p>
+                    Responsible for developing, testing and integrating embedded
+                    Linux computer vision tracking software. Working with the
+                    state-of-the art short term general object trackers, high
+                    speed detection, machine learning classification and gesture
+                    control. Advancing techniques and integrating them into a
+                    low power system to control cameras and UAVs.
                 </p>
                 <p>
-                    Tracking software developed controls an autonomous UAV, target assists in public safety situations, and is adaptable to any type of target.
+                    Tracking software developed controls an autonomous UAV,
+                    target assists in public safety situations, and is adaptable
+                    to any type of target.
                 </p>
 
                 <h2><a href="http://www.firstinspires.org/">FIRST Robotics</a> <span>FIRST Senior Mentor - 2014-2015</span></h2>
                 <p>
-                    Supporting, recruiting and mentoring students & coaches for FIRST Robotics teams in Alberta.
+                    Supporting, recruiting and mentoring students & coaches for
+                    FIRST Robotics teams in Alberta.
                 </p>
                 <p>
-                    My work had an impact on over 750 students across Alberta, giving them an opportunity to work hands-on with technology and engineering.
+                    My work had an impact on over 750 students across Alberta,
+                    giving them an opportunity to work hands-on with technology
+                    and engineering.
                 </p>
             </dd>
             <dd class="clear"></dd>
+
+            <dt>Interests</dt>
+            <dd>
+                <h4>Free Software, Open Source, Linux</h4>
+                    I have always been passionate about the moral and practical
+                    missions of free software
+                <h4>Electronics & Robotics</h4>
+                    I have worked with a good amount of electronics and competed
+                    in 5 years of robotics competitions
+                <h4>Active Living</h4>
+                    I'm passionate about staying healthy through hiking,
+                    basketball, weightlifting and cycling
+            </dd>
+            <dd class="clear"></dd>
+
+            <div class="new-page"></div>
+            <div class="only-print">
+                <h1 class="fn">Joel Gallant</h1>
+                <div style="float: left;">
+                    <b>Cell:</b> <span class="tel">403-826-5534</span>
+                    <b>Email:</b> <a class="email" href="mailto:joel@joelgallant.me">joel@joelgallant.me</a>
+                </div>
+
+                <div id="objective">
+                    <p>
+                        Driven, detail oriented, self taught and a candid software
+                        developer - with specialization in making the complex simple.
+                        I work hard and fast without sacrificing quality.
+                    </p>
+                </div>
+            </div>
 
             <dt style="height: 40px;">Education</dt>
             <dd>
@@ -115,28 +186,63 @@
             </dd>
             <dd class="clear"></dd>
 
-            <dt>Interests</dt>
+            <dt>Achievements & Projects</dt>
             <dd>
-                <h4>Free Software, Open Source, Linux</h4>
-                I have always been passionate about the moral and practical missions of free software
-                <h4>Electronics & Robotics</h4>
-                I have worked with a good amount of electronics and competed in 5 years of robotics competitions
-                <h4>Active Living</h4>
-                I'm passionate about staying healthy through hiking, basketball, weightlifting and cycling
+                <h4>Trace Visual Intelligence</h4>
+                <p>
+                    I joined the software team for Trace to create a fast target
+                    tracker onboard UAVs. My proprietary work outperformed the
+                    best available options in accuracy and performance.
+                </p>
+
+                <h4>FIRST Robotics</h4>
+                <p>
+                    I was a founding student member and continue to mentor with
+                    <a href="http://4334.ca/history">Team 4334</a>. In 2014, I
+                    led the team to a World Championship division semi-final,
+                    and the Chairman's award.
+                </p>
+
+                <ul>
+                    <li>Chairman's award for broad inpact in and out of STEM
+                    <li>Over 15 official awards within 6 years of competing
+                    <li>World division winner, the highest stage of competition
+                </ul>
+
+                <h4>ATAlibj</h4>
+                <p>
+                    In high school, I collaborated with members from other teams
+                    to develop a high quality Java library for use in FRC robots,
+                    generalizing many of the common approaches and problems faced.
+                </p>
+
+                <h4>Gordian Scripting Language</h4>
+                <p>
+                    In my grade 11 year, I wrote an interpreter for a python-like
+                    scripting language that was run onboard an FRC robot. It used
+                    no external libraries and had a prototypical object model.
+                </p>
+
+                <h4>High School Robotics Curriculum</h4>
+                <p>
+                    I was honored in my grade 11 and 12 years to write
+                    curriculum for online high school courses that were taken by
+                    over 50 students.
+                </p>
             </dd>
             <dd class="clear"></dd>
 
             <dt>Find me</dt>
-                <dd>
-                    <p>
-                        <a href="https://github.com/joelgallant"><img height="40" src="/img/github.png"></a>
-                        <a href="https://www.linkedin.com/in/gallantjoel"><img height="40" src="/img/linkedin.png"></a>
-                    </p>
-                    <p><a href="/resume.pdf">PDF Version</a></p>
-                </dd>
+            <dd>
+                <p>
+                    <a href="https://github.com/joelgallant"><img height="40" src="/img/github.png"></a>
+                    <a href="https://www.linkedin.com/in/gallantjoel"><img height="40" src="/img/linkedin.png"></a>
+                </p>
+                <p><a href="/resume.pdf">PDF Version</a></p>
+            </dd>
             <dd class="clear"></dd>
-        </dl>
-        <div class="clear"></div>
+            <div class="clear"></div>
+        </div>
     </div>
 </body>
 </html>
